@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    text-align: center; /* tudo fica alinhado no centro  */
+    background-color: #323232;
+}
+
+img {
+    width: 70%;  /* width = largura
+                a imagem vai ficar 70% da tela */
+}
+
+h1 {
+    color: #cfff00;
+    font-size: 50px;
+}
+
+input {
+    width: 140px; /* largura  */
+    height: 30px; /* height = altura  */
+}
+
+#input-real { /* primeiro vai ser o tamanhado depois qual o tipo da borda e por ultimo a cor  */
+    border: 3px solid #cfff00;
+}
+
+#input-dolar {
+    border: 3px solid red;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer; /* quando passar o mouse encima ele vira uma mãozinha  */
+    border: 3px solid #cfff00;
+    border-radius: 10px;
+    background-color: #323232;
+    color: white;
+}
+
+button:hover { /* Mudando a cor quando passa o mouse encima */
+    color: #323232;
+    background-color: #cfff00;
+}
