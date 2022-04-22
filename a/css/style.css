@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+:root {
+
+    --fonte-padrao: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+}
+
+.container {
+    max-width: 1280px; /*estabelecendo o comprimento maximo da minha tela */
+    margin: 0px auto; /* Colocando uma margin de 0 encima e enbaixo e auto na direita e esquerda */
+    padding: 0px 2%; /* colocando 0 de padding encima e enbaixo de 2% direita e esquerda */
+}
+
+/*Menu*/
+
+header {
+    padding: 8px 0;
+    height: 90px; /* altura */ /* para aumentar o tamanho da logo temos que aumentar primeiro esse height dos o height da logo */
+}
+
+.logo {
+    float: left; /* Ajustando e acomodando a logo na tela pra ficarem certos  */
+}
+
+.logo h1 { /* */
+    height: 70px; /* arrumando tamanho da logo a logo tem que ser menor que que o height de colocamos que foi de 90px */
+}
+
+.menu-desk {
+    float: right; /* colocando o menu pra direita  */
+}
